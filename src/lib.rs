@@ -1,3 +1,7 @@
+#![no_std]
+
+mod memory;
+
 #[macro_export]
 macro_rules! java_inner {
     (toplevel {}) => {};
